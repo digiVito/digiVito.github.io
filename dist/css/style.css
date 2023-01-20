@@ -1,0 +1,299 @@
+.navbar{
+    padding: 2px 1rem;
+}
+/* nav.navbar. navbarpadd.navbar-expand-lg.navbar-light.bg-white.fixed-top.shadow {
+    padding: 0px 1rem;
+} */
+.shadow{
+    box-shadow: 2px 3px 5px #0E0E0E80;
+}
+.navbar-light .navbar-brand {
+    color: #08294C;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #08294C;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #08294C;
+}
+a.nav-link.active{
+    color: #08294C !important;
+}
+.navbar-light .navbar-toggler {
+    color: #FF0A00;
+    border-color: #FF0A00;
+}
+/* .bbottm{
+    border-bottom: 2px solid transparent;
+} */
+a.nav-link{
+    border-bottom: 2px solid transparent;
+}
+a.nav-link.active{
+    border-bottom: 2px solid #FF0A00;
+}
+
+.carousel.m-top{
+    margin-top: 62px;
+}
+.carousel-caption{
+  display: block;
+    text-align: center;
+    top: 20%;
+    height: auto;
+/* transform: translateY(-50%); */
+}
+                        /* Home css fontsize crousal captionpart */
+h1.f-sm{
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+    font-size: 40px !important;
+}
+p.f-sm1{
+    font-size: 20px !important;
+    font-family: Montserrat-Regular;
+}
+  
+                     /* About us part css  */
+strong{
+    color: #08294C;
+    font-family: MONTSERRAT-BOLD;
+}
+h3.card-title{
+    color: #08294C;
+    font-size: 20px;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+}
+span.red{
+    color: #FF0A00 !important;
+    font-family: MONTSERRAT-BOLD;
+}
+p.para{
+    font-size: 20px;
+    color: #08294C;
+    font-family: Montserrat-Regular;
+    /* font-family: Helvetica; */
+}
+
+.card{
+    border:1px solid #08294C !important;
+}
+                       /* what we do part css */
+.bg-light1{
+    background-color: #F6F6F6 !important;
+}
+.card.border{
+    border-color: #ffffff !important;
+}
+.dropdown-divider {
+   border-top: 2px solid #FF0A00;
+}
+.text-muted {
+    /* color: #08294C !important; */
+    font-size: 16px !important;
+    font-family:Montserrat;
+  
+}
+h5.font1{
+    font-size: 16px;
+    color: #08294C;
+    font-family: MONTSERRAT-BOLD;
+    /* font-family: Helvetica; */
+    font-weight: bold;
+
+}
+
+
+                        /* Blogs page css */
+
+a.card-link{
+    color: #0195FC !important;
+    font-size: 14px !important;
+    font-family: MONTSERRAT-BOLD;
+    font-weight: bold;
+}
+.btn-primary {
+    font-family: MONTSERRAT-BOLD;
+    font-family: Helvetica;
+     color:#FF0A00;
+    background-color: transparent;
+    border-color:#FF0A00;
+    font-size: 11px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    color:#FF0A00;
+    background-color: transparent;
+    border-color:#FF0A00;
+}
+                                   /* user prfile with card css */
+img.rounded-circle.mx-auto.d-block {
+    position: relative;
+    top: 66px;
+    z-index: 1;
+}
+.carousel-item.imgmt {
+    margin-top: -60px;
+}
+                    /* background crousal/slider with image/logo css */
+.backgroung-image{
+    background: url("./../../images _of _web/Rectangle 5.png");
+}
+
+p.whitecolor{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+}
+span.cwhite{
+    color:#FFFFFF ;
+    font-family: Montserrat-Regular;
+}
+.card.color-w{
+background-color: #FFFFFF;
+}
+.dropdown-divider.divider1.my-3 {
+    margin: 42%;
+}
+
+.carousel-indicators{
+    bottom: 10px;
+}
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+   background-color: #FFFFFF;
+    background-clip: padding-box;
+    border-top: 0px solid transparent;
+    border-bottom: 0px dotted transparent;
+   border-radius: 10px;
+}
+li.active {
+    background-color: #FF0A00;
+}
+ol.carousel-indicators.clip1 {
+    bottom: -60px;
+}
+ol.carousel-indicators.clip1 li{
+    background-color: #08294C;
+}
+ol.carousel-indicators.clip1 li.active{
+    background-color: #FF0A00;
+}                     
+                         /* contactus csss */
+.btn-secondary{
+    font-family: MONTSERRAT-BOLD;
+    color:#FFFFFF;
+   background-color: #FF0A00 ;
+   border-color:#FF0A00;
+   font-size: 14px;
+   border: 2px solid;
+   border-radius: 7px;
+   /* padding: 7px 33px; */
+   padding: 4px 55px;
+   /* height: 34px;
+   width: 150px; */
+   font-weight: 700;
+}
+.btn-secondary:hover{
+    color:#FFFFFF;
+    background-color: #FF0A00;
+    border-color:#FF0A00;
+}
+
+label{
+    font-size: 13px;
+    color: #08294C;
+    font-family: Montserrat-Regular;
+}
+.form-control{
+    border: 1px solid #08294C;
+    border-radius: 5px;
+}
+                 /* footer cssss*/
+.footer1{
+    background-color:#5D5D5D;
+}
+p.font{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: Montserrat-Regular;
+    font-weight: bold;
+}
+p.font2{
+    font-size: 10px;
+    color: #FFFFFF;
+    font-family: Montserrat-Regular;
+    /* font-weight: bold; */
+}
+span.iconleft1{
+    margin-left: -55%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+span.iconleft{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+                                  /* index2 htmlpage css */
+ /* .m-top1 {
+    margin-top: 64px;
+} */
+p.parafont{
+    font-size: 20px;
+}
+a.linkcolor1{
+    color: #00205B;
+}
+a.linkcolor{
+    color: #1266ff;
+}
+h1.f-sm2{
+    font-size: 25px;
+    font-family: MONTSERRAT-BOLD;
+}
+                         /* media query */
+
+@media (max-width: 768px){
+    nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
+      padding-left: 4%;
+    
+    }
+.carousel-caption{
+        display: block;
+        text-align: center;
+        top: -15%;
+        height: auto;
+        font-family: Montserrat-Regular;
+        /* margin-top: 15%; */
+}
+h1.f-sm{
+    font-family:  MONTSERRAT-BOLD;
+    font-size: 16px !important;
+}
+p.f-sm1{
+    font-size: 12px !important;
+    font-family: Montserrat-Regular;
+}
+h1.f-sm2{
+    font-size: 15px;
+}
+.carousel.m-top{
+            margin-top: 62px;
+        }
+}
+  @media (min-width: 1349px){
+    nav.navbar.navbar-expand-lg.navbar-light.bg-white.fixed-top {
+      padding-left: 21%;
+    
+    }
+  }
+
+ 
