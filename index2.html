@@ -125,7 +125,14 @@
       <div class="row text-center pl-5">
     <div class="col-md-4">
       <p class="font text-left">CONTACT INFO</p>
-      <p class="whitecolor text-left mb-1"><i class="fa fa-map-marker pr-2" aria-hidden="true"></i>152p, LGF, Sector 38, Gurgaon, India</p>
+      <p class="whitecolor text-left mb-1"><i class="fa fa-map-marker pr-2" aria-hidden="true"><a href="#" onclick="redirectToMap('Spaze ITech Park, 835, B2, Badshahpur Sohna Rd Hwy, Sector 49, Gurugram, Haryana 122018')" style = "color: black; text-decoration: none; text-align: left;"> Spaze ITech Park, 835, B2, Badshahpur Sohna Rd Hwy, Sector 49, Gurugram, Haryana 122018 </a>
+
+<script>
+function redirectToMap(address) {
+  const encodedAddress = encodeURIComponent(address);
+  window.location = `https://maps.google.com/?q=${encodedAddress}`;
+}
+</script></p>
       <p class="whitecolor text-left mb-1"><i class="fa fa-volume-control-phone pr-2" aria-hidden="true"></i>(002) 5605 - 6553 - 9954</p>
       <p class="whitecolor text-left"><i class="fa fa-envelope pr-2" aria-hidden="true"></i>hr@digivito.com</p>
       </div>
